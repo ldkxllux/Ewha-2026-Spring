@@ -222,7 +222,8 @@
 | Pain Point (해결할 문제) | AI 프롬프트 작성 미숙으로 인한 과다한 비용 청구 |
 | 사용 기술 | Tailwind, Next.js, FastAPI, tiktoken,LangChain,LLMLingua,Firebase Firestore |
 | 기대 효과 | AI 사용성 계선 및 비용 감소 |
-| Team Ground Rule |  |
+| GitHub Repo | [https://github.com/kimnnnn4215g/Ehwa-2026-Spring](https://github.com/kimnnnn4215g/Ehwa-2026-Spring) |
+| Team Ground Rule | [Team Ground Rule](Team_Ground_Rule.md) |
 | 최종수정일 | 03.10 09시 50분 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
