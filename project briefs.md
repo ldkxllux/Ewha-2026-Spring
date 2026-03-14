@@ -154,7 +154,7 @@
 | 사용 기술 | Front (React) / Back (Spring Boot) |
 | 기대 효과 | 게임 요소를 통한 재미있는 독서 경험을 제공하고, 기록 관리 편의성을 증진함 |
 | GitHub Repo | [https://github.com/team-capstone-reverdir-2026/reverdir_repo](https://github.com/team-capstone-reverdir-2026/reverdir_repo) |
-| Team Ground Rule | [https://github.com/team-capstone-reverdir-2026/reverdir_repo/blob/main/Team_Ground_Rule.md) |
+| Team Ground Rule | https://github.com/team-capstone-reverdir-2026/reverdir_repo/blob/main/Team_Ground_Rule.md |
 | 최종수정일 | 2026.03.14 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
