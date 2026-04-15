@@ -242,16 +242,16 @@
 | 팀명 | 212223 |
 | 팀구성 | 고윤진(2176018), 김나현(2276040), 이유진(2376218) |
 | 팀지도교수 | 심재형 교수님 |
-| 무엇을 만들고자 하는가 | 사용자가 프롬프트를 입력하면 각 AI 모델(GPT-4, Gemini, Claude 등)의 최적화된 프롬프트를 추천 후 그에 따른 예상 비용을 실시간으로 계산하고 비교하는 웹 서비스 |
-| 고객 (누구를 위해) | Ai api를 사용하는 학생 및 개발자, 스타트업 등 비용에 민감한 사용자 |
-| Pain Point (해결할 문제) | AI 프롬프트 작성 미숙으로 인한 과다한 비용 청구 |
-| 사용 기술 | Tailwind, Next.js, FastAPI, tiktoken,LangChain,LLMLingua,Firebase Firestore |
-| 개발환경 | 1. Client 디바이스: PC(Windows, Mac)<br>2. FE:React.js ,TailwindCSS<br>3. BE:FastAPI (Python)<br>4. DB: Firebase Firestore<br>5. AI/LLM: tiktoken<br>6. 외부 API: OpenAI / Anthropic / Google AI SDK<br>7.크롤러: BeautifulSoup<br>8. 배포: Vercel (프론트) + Railway or Render (백엔드)<br>9. FE또는 BE에 사용하는 특별한 라이브러리:LiteLLM(백엔드),TanStack Query(프론트엔드)
-| 사용하는 소프트웨어 URL | 1. Client 디바이스: PC(Windows, Mac)<br>2. FE:React.js ,TailwindCSS<br>3. BE:FastAPI (Python)<br>4. DB: Firebase Firestore<br>5. AI/LLM: tiktoken<br>6. 외부 API: OpenAI / Anthropic / Google AI SDK<br>7.크롤러: BeautifulSoup<br>8. 배포: Vercel (프론트) + Railway or Render (백엔드)<br>9. FE또는 BE에 사용하는 특별한 라이브러리:LiteLLM(백엔드),TanStack Query(프론트엔드)
-| 기대 효과 | AI 사용성 계선 및 비용 감소 |
+| 무엇을 만들고자 하는가 |  비개발자가 비효율적인 프롬프트를 입력하면, filler word·모호 표현·중복 코드를 실시간으로 감지하고, 오픈소스(LLMLingua, LangChain) 기반으로 프롬프트를 자동 최적화하여 전후 토큰 차이를 시각화하고, 7개 주요 LLM 모델의 예상 비용을 실시간 비교하는 웹 서비스 |
+| 고객 (누구를 위해) | AI를 활용하여 코딩을 하고자 하는 비개발자 (바이브코딩 사용자, AI 기반 프로토타이핑을 하는 학생·기획자·스타트업 등 토큰 개념 없이 LLM을 사용하는 사용자) |
+| Pain Point (해결할 문제) | ① 토큰 개념에 대한 이해 부족으로 인한 무의식적 비용 낭비 (바이브코딩 세션당 생성 코드의 30~40%가 폐기, 구조화 대비 3~4배 토큰 과소비) ② 개발 구조와 로직에 대한 이해 부족으로 인한 모호한 요구, 코드 통째 전송, 반복적 재프롬프팅 ③ 토큰과 모델별 가격 차이에 대한 인지 저조 |
+| 사용 기술 | 오픈소스: tiktoken (토큰 정밀 측정), LangChain (프롬프트 템플릿 관리 및 체이닝), LLMLingua 또는 DSPy (프롬프트 압축/최적화, 성능 비교 후 택 1) |
+| 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS, TanStack Query 3. BE: FastAPI (Python) 4. DB: Firebase Firestore 5. AI/NLP 오픈소스: tiktoken, LangChain, LLMLingua 또는 DSPy 6. 외부 API: OpenAI / Anthropic / Google AI SDK 7. 자체 개발 모듈: filler word 감지, 모호 표현 탐지, 토큰 과다 경고, 모델 추천 엔진 8. 배포: Vercel (프론트) + Railway 또는 Render (백엔드) 9. 특수 라이브러리: LiteLLM (백엔드 멀티모델 통합) |
+| 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken LangChain: https://github.com/langchain-ai/langchain LLMLingua: https://github.com/microsoft/LLMLingua DSPy: https://github.com/stanfordnlp/dspy LiteLLM: https://github.com/BerriAI/litellm Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi Firebase: https://firebase.google.com TanStack Query: https://github.com/TanStack/query |
+| 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 평균 40% 이상의 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
 | GitHub Repo | [https://github.com/0727n1122-beep/graduationproject/tree/main](https://github.com/0727n1122-beep/graduationproject/tree/main) |
 | Team Ground Rule | [Team Ground Rule](https://github.com/0727n1122-beep/graduationproject/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 03.16 |
+| 최종수정일 | 04.15 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
