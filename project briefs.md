@@ -9,7 +9,7 @@
 | [6](#team-6) | Greenfield | 산학 | 	AI 역사 인물 인터랙션과 다국어 스토리 콘텐츠 기반 역사 관광 활성화 웹 플랫폼 |
 | [7](#team-7) | reverdir | 산학 | 익명 매칭부터 미션, 쪽지, 힌트, 랭킹, 정체 공개까지 마니또 활동 전 과정을 지원하는 마니또 소셜 플랫폼 |
 | [8](#team-8) | 하면된다 | 산학 | AI 기반 가격 검증과 정시 경매 시스템으로 정보 비대칭과 탐색 피로를 해결하는 빈티지 거래 플랫폼 |
-| [9](#team-9) | Cloud9 | 산학 | 퀀트 전략 실시간 상태 모니터링 및 이상 징후 탐지 시스템 |
+| [9](#team-9) | Cloud9 | 산학 | 개인 투자자 행동 이상 탐지 및 XAI 코칭 솔루션 |
 | [10](#team-10) | 212223 | 산학 | 프롬프트 자동 최적화 기반 LLM API 비용 실시간 비교 웹 서비스 |
 | [11](#team-11) | 알고리듬 | 산학 |  SpeedSchedule: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
 | [12](#team-12) | 404 | 산학 | 여성 1인 여행자를 위한 DB 기반 가이드맵 및 안전 동행 매칭 서비스 |
@@ -210,22 +210,22 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 다중 퀀트 전략 실시간 상태 모니터링 및 이상 징후 탐지 서비스 |
+| 프로젝트명 | 개인 투자자 행동 이상 탐지 및 XAI 코칭 솔루션 |
 | 서비스명(브랜드) | Canary |
 | 트랙 | 산학 |
 | 팀명 | Cloud9 |
 | 팀구성 | 박나림, 임도경, 최은우 |
 | 팀지도교수 | 이민수 |
-| 무엇을 만들고자 하는가 | 퀀트 전략 실시간 상태 모니터링 및 이상 징후 탐지 시스템 |
-| 고객 (누구를 위해) | 개인 자동매매 투자자 |
-| Pain Point (해결할 문제) | 여러 퀀트 전략을 동시에 운용할 경우, 이상 상황이 발생했을 때 어떤 전략에서 문제가 생겼는지 빠르게 확인하기 어렵다는 문제가 있다. 본 프로젝트는 전략별 상태를 실시간으로 모니터링하고 이상 징후를 탐지하여, 이를 대시보드로 시각화해 효율적인 대응을 가능하게 한다. |
-| 사용 기술 | Front(React, Recharts, WebSocket client), Back(Python, FastAPI, SQLAlchemy, WebSocket), AI(Pandas, NumPy)  |
-| 개발환경 | 1. Client 디바이스 - PC<br>2. FE - React(javascript), websocket client, recharts<br>3. BE - FastAPI<br>4. DB - PostgreSQL<br>5. (BE) - pandas/numpy, scikit-learn, pytorch, statsmodels (Streaming) - websocket (알람) - SMTP/Slack API/Firebase <br>6. Binance API, OpenAI
-| 사용하는 소프트웨어 URL | 1. Client 디바이스 - PC<br>2. FE - React(javascript), websocket client, recharts<br>3. BE - FastAPI<br>4. DB - PostgreSQL<br>5. (BE) - pandas/numpy, scikit-learn, pytorch, statsmodels (Streaming) - websocket (알람) - SMTP/Slack API/Firebase <br>6. Binance API, OpenAI
-| 기대 효과 | 손실 최소화 |
+| 무엇을 만들고자 하는가 | 개인 투자자의 매매 내역을 분석해 비이성적 패턴을 탐지하고, 원인을 분석해 주는 XAI 기반 행동 코칭 시스템 |
+| 고객 (누구를 위해) | 지속적인 손실을 겪는 일반 개인 투자자 |
+| Pain Point (해결할 문제) | 기존 금융 서비스는 '무엇을 살지'에만 집중할 뿐, 투자자가 '왜 반복해서 잃는지'에 대한 원인 분석이 부재하다. 투자자 본인도 인지하지 못하는 잘못된 매매 행동(행동 통제 실패)을 객관적인 데이터로 짚어주고 교정해 줄 시스템적 장치가 필요하다. |
+| 사용 기술 | Front(React, Recharts, WebSocket client), Back(Python, FastAPI, SQLAlchemy, WebSocket), AI(PyTorch, SHAP, Scikit-learn, Pandas, NumPy)  |
+| 개발환경 | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), WebSocket client, Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, SHAP
+| 사용하는 소프트웨어 URL | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), WebSocket client, Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, SHAP
+| 기대 효과 | 투자자의 비이성적 매매 행동 방어 및 코칭을 통한 실질적인 손실 방어와 건전한 투자 습관 형성 |
 | GitHub Repo | https://github.com/Cloud9-capstone-2026/cloud9 |
 | Team Ground Rule | [Team Ground Rule](https://github.com/Cloud9-capstone-2026/cloud9/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.04.09 |
+| 최종수정일 | 2026.04.26 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
