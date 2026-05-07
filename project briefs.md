@@ -18,7 +18,7 @@
 | [15](#team-15) | 햄부기 | 연구 | 엣지 디바이스 배포를 위한 Vision Foundation Model의 2:4 구조적 희소성 성능 분석 및 추론 파이프라인 구축 |
 | [16](#team-16) | 퓨터 | 산학 | 대화 진행에 따라 성격이 변하는 AI 캐릭터와의 정서적 유대감 기반 영어 회화 학습 지속 서비스 |
 | [17](#team-17) | SPY | 산학 | Moni: AI 기반 소비 예측과 맞춤형 챌린지를 결합한 개인화 소비 코칭 서비스 |
-| [18](#team-18) | 디바트(deep-art) | 연구 | 철새 이동 데이터 기반 XAI 인터랙티브 미디어아트 설치 작품: AI 의사결정 과정의 대중적 이해 증진 |
+| [18](#team-18) | 디바트(deep-art) | 연구 | 철새 이동 경로 예측 모델과 설명 가능한 AI(XAI)를 사용하여 전시 관람객에게 AI의 추론 과정에 대한 시각적 경험을 제공하는 인터랙티브 미디어아트 설치 작품 |
 | [19](#team-19) | Logue | 산학 | 자연어 기반 데이터 분석 질의를 통해 조직의 데이터 접근성과 의사결정 속도를 향상시키는 AI 기반 데이터 분석 웹 인터페이스, Logue |
 
 ---
@@ -441,7 +441,7 @@
 
 | 항목 | 내용 |
 | --- | --- |
-| 프로젝트명 | 철새 이동 데이터 기반 XAI 인터랙티브 미디어아트 설치 작품: AI 의사결정 과정의 대중적 이해 증진 |
+| 프로젝트명 | 철새 이동 경로 예측 모델과 설명 가능한 AI(XAI)를 사용하여 전시 관람객에게 AI의 추론 과정에 대한 시각적 경험을 제공하는 인터랙티브 미디어아트 설치 작품 |
 | 트랙 | 연구 |
 | 팀명 | 디바트(deep-art) |
 | 팀구성 | 최현서, 이나겸, 김나경 |
@@ -454,8 +454,8 @@
 | 사용 소프트웨어 URL | **AI / ML**<br>- PyTorch: https://pytorch.org/<br>- SHAP: https://github.com/shap/shap<br>- filterpy (Kalman): https://github.com/rlabbe/filterpy<br>- SciPy (Spline): https://scipy.org/<br>**백엔드**<br>- FastAPI: https://fastapi.tiangolo.com/<br>**렌더링**<br>- Unity VFX Graph: https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@latest |
 | 기대 효과 | 첫째, 예술적 시각화 도구가 일반 대중의 AI 리터러시 향상에 미치는 효과를 실증한다. 관람객을 대상으로 전시 체험 전후 설문을 통해 AI 이해도 변화를 측정하고, 미디어아트의 AI 교육 도구로서의 유효성을 검증한다.<br>둘째, XAI 시각화의 새로운 접근 방식을 제안한다. 수치 중심의 기존 XAI 출력 방식을 넘어, 색·밝기·군집 움직임 등 비전공자도 직관적으로 읽을 수 있는 시각화 표현 방식을 탐구한다.<br>셋째, 인터랙티브 미디어아트와 XAI의 융합 가능성을 실험적으로 제시한다. 관객이 변수를 직접 조작하고 AI의 반응을 실시간으로 확인하는 구조를 통해, 단순 관람을 넘어 AI 의사결정 과정에 능동적으로 개입하는 경험을 설계한다. |
 | GitHub Repo  | https://github.com/ewha-deep-art/bird-xai |
-| Team Ground Rule | https://github.com/ewha-deep-art/deep-art/blob/main/Team_Ground_Rule.md |
-| 최종수정일 | 2026.04.16 |
+| Team Ground Rule | https://github.com/ewha-deep-art/bird-xai/blob/main/docs/Team_Ground_Rule.md |
+| 최종수정일 | 2026.05.07 |
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
 ---
