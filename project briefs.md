@@ -68,8 +68,8 @@
 | 사용하는 소프트웨어 URL | -Flutter: https://flutter.dev<br> -FastAPI: https://fastapi.tiangolo.com<br> -YOLOv8 (Ultralytics): https://github.com/ultralytics/ultralytics<br> -Google Gemini API: https://ai.google.dev<br> -OpenAI GPT-4o: https://openai.com<br> -LangChain: https://www.langchain.com<br> -Pinecone: https://www.pinecone.io<br> -Firebase FCM: https://firebase.google.com<br> -카카오맵 API: https://apis.map.kakao.com<br> -공공데이터포털 식품영양성분 DB: https://www.data.go.kr<br> -AWS (EC2 · RDS): https://aws.amazon.com<br> -Docker: https://www.docker.com |
 | 기대 효과 | **① 식단 기록 자동화**: 사진 1장으로 칼로리·영양소 즉시 분석. 기록 부담을 최소화해 일일 식단 기록 유지율을 높임.<br> **② 개인 맞춤 AI 코칭**: RAG 파이프라인으로 인바디·식단 로그·운동 이력·질환 정보를 LLM에 주입. 일반 앱 대비 구체적이고 실질적인 조언 제공.<br> **③ 건강 관리 통합화**: 식단·운동·헬스장·병원 일정을 단일 플랫폼에서 관리. 앱 전환 비용 제거 및 데이터 연속성 확보.<br> **④ 트레이너-이용자 연결**: AI가 이용자 데이터를 자동 요약해 트레이너에게 전달. 전문 지도의 질·효율 향상 및 상담 준비 시간 단축.<br> **⑤ 만성질환 예방 기여**: 2030세대의 조기 식습관·운동 습관 개선을 통해 고혈압·당뇨·이상지질혈증 발병 위험 감소에 기여.<br> **⑥ 장기 지속성 확보**: 포인트·Streak 보상 시스템으로 내재적 동기를 강화하고 단기 이탈을 방지. 장기적 건강 습관 형성 유도. |
 | GitHub Repo | [https://github.com/CSE-Sudo-26/sudo-capstone-project](https://github.com/CSE-Sudo-26/sudo-capstone-project) |
-| Team Ground Rule | [Team Ground Rule](https://github.com/CSE-Sudo-26/sudo-capstone-project/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026-04-20 |
+| Team Ground Rule | [Team Ground Rule](https://github.com/CSE-Sudo-26/sudo-capstone-project/blob/main/docs/Team_Ground_Rule.md) |
+| 최종수정일 | 2026-05-24 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
