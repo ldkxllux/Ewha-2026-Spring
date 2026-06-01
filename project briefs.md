@@ -352,7 +352,7 @@
 | 기대 효과 | - Prefill latency 감소: AST 서브트리 단위 KV Cache 재사용으로 반복 등장하는 코드 블록의 재계산 제거 <br>- 동적 메타정보 문제 해결: tool_call_id·타임스탬프 등으로 인한 prefix 불일치를 우회하여 멀티턴 세션 전반에서 cache hit 유지 <br>- 위치 독립적 재사용: RoPE re-positioning으로 위치가 달라진 서브트리도 KV를 올바르게 재사용 <br>- Long context 환경 대응: 히스토리가 누적되어 컨텍스트 길이가 증가해도 TTFT 선형 증가 억제|
 | GitHub Repo | [https://github.com/capstone-2026-ewha/def](https://github.com/capstone-2026-ewha/def) |
 | Team Ground Rule | [https://github.com/capstone-2026-ewha/def/blob/main/Team_Ground_Rule.md](https://github.com/capstone-2026-ewha/def/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026-6-1 |
+| 최종수정일 | 2026-06-01 |
 
 ---
 
