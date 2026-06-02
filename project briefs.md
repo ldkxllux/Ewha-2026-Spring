@@ -422,13 +422,13 @@
 | 무엇을 만들고자 하는가 | 본 프로젝트는 사용자의 과거 소비 패턴을 AI가 분석·예측하고, 바로 실천할 수 있는 개인화 챌린지를 제공하는 소비 습관 코칭 앱을 목표로 한다. 카테고리별 지출 예측을 바탕으로 사용자의 소비 목표와 당일 소비 현황을 반영한 데일리 챌린지를 자동 생성하며, 챌린지 달성 시 캐릭터가 성장하는 게임형 보상 구조를 통해 지속적인 행동 변화를 유도한다. |
 | 고객 (누구를 위해) | 예산은 있지만 계획적으로 소비하기 어려운 사용자, 소비 습관 개선 필요성을 느끼거나 감정적·충동적 소비를 줄이고 싶은 사용자 |
 | Pain Point (해결할 문제) | 많은 사용자는 예산을 설정해도 이를 실제 행동으로 이어가지 못하고, 자신의 소비 패턴을 직관적으로 파악하는 데 어려움을 겪는다. 기존 소비 관리 서비스는 기록과 통계 제공에 머무르는 경우가 많아 지속적인 행동 변화 유도가 부족하다. 소비 습관은 월간 통계가 아니라 오늘의 행동으로 결정되지만, 오늘 어떻게 행동해야 할지 알려주는 도구가 없다. |
-| 사용 기술 | FE: Kotlin, BE: FastAPI , DB: MySQL, AI: Python 기반 Prophet / ARIMA / LSTM 모델 비교 실험, 챌린지 생성: OpenAI GPT API |
-| 개발환경 | 1. AI/ML: 소비 패턴 분석 및 예측 모델 (Prophet / ARIMA / LSTM)<br>2. Data Analysis: Pandas, NumPy 기반 소비 데이터 처리 및 시계열 분석<br>3. LLM: 개인화 챌린지 문장 및 주간 리포트 생성 (OpenAI API)<br>4. FE: Kotlin (Android Native), Retrofit<br>5. BE: FastAPI<br>6. DB: MySQL
-| 사용하는 소프트웨어 URL | 1. AI/ML: 소비 패턴 분석 및 예측 모델 (Prophet / ARIMA / LSTM)<br>2. Data Analysis: Pandas, NumPy 기반 소비 데이터 처리 및 시계열 분석<br>3. LLM: 개인화 챌린지 문장 및 주간 리포트 생성 (OpenAI API)<br>4. FE: Kotlin (Android Native), Retrofit<br>5. BE: FastAPI<br>6. DB: MySQL
+| 사용 기술 |  FE: React Native (Expo), TypeScript / BE: FastAPI (Python), SQLModel, JWT 인증 / DB: PostgreSQL / AI: Python 기반 Prophet 시계열 예측 (데이터 부족 시 이동평균 폴백) / 챌린지 생성: 예산 압박도·소비 streak 기반 rule-based 엔진 / 배포: Railway<br>향후 확장 예정 — ARIMA·LSTM 예측 모델 비교 실험, OpenAI GPT API 기반 챌린지 문장 및 주간 리포트 생성 |
+| 개발환경 | 1. 언어/런타임: Python 3.10+, TypeScript (Node.js)<br>2. AI/예측: Prophet 1.3, pandas, numpy (Jupyter/Colab 기반 실험)<br>3. Backend: FastAPI 0.136, SQLModel, Uvicorn (ASGI)<br>4. Frontend: React Native (Expo), Expo CLI<br>5. Database: PostgreSQL (psycopg2)<br>6. 배포/인프라: Railway (백엔드 HTTPS)<br>7. 협업: GitHub |
+| 사용하는 소프트웨어 URL | FastAPI — https://fastapi.tiangolo.com<br>Prophet (Meta) — https://facebook.github.io/prophet<br>Expo (React Native) — https://expo.dev<br>PostgreSQL — https://www.postgresql.org<br>Railway (배포) — https://railway.app |
 | 기대 효과 | 본 서비스는 소비가 발생하기 전에 개입하는 예측 기반 구조를 통해 사용자의 실제 소비 행동 변화를 유도하고, 예산 준수율 및 소비 습관 개선에 기여할 것으로 기대된다. 하루 단위의 챌린지와 보상 시스템으로 단기 실천을, 주간 리포트로 중기 점검을 함께 제공함으로써 사용자 참여도와 지속 사용성을 높인다. |
 | GitHub Repo | [https://github.com/SPY-capstone-2026/SPY-capstoneREPO](https://github.com/SPY-capstone-2026/SPY-capstoneREPO) |
-| Team Ground Rule | https://github.com/SPY-capstone-2026/SPY-capstoneREPO/blob/main/Team_Ground_Rule.md |
-| 최종수정일 | 2026.04.06 |
+| Team Ground Rule | https://github.com/SPY-capstone-2026/SPY-capstoneREPO/blob/main/docs/Team_Ground_Rule.md |
+| 최종수정일 | 2026.06.01 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
