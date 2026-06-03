@@ -11,7 +11,7 @@
 | [8](#team-8) | 하면된다 | 산학 | AI 기반 가격 검증과 정시 경매 시스템으로 정보 비대칭과 탐색 피로를 해결하는 빈티지 거래 플랫폼 |
 | [9](#team-9) | Cloud9 | 산학 | 반복적인 손실을 겪는 개인 주식 투자자를 위한 AI 기반 매매 행동 분석 및 맞춤형 투자 습관 개선 플랫폼 |
 | [10](#team-10) | 212223 | 산학 | 프롬프트 자동 최적화 기반 LLM API 비용 실시간 비교 웹 서비스 |
-| [11](#team-11) | 알고리듬 | 산학 |  SpeedSchedule: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
+| [11](#team-11) | 알고리듬 | 산학 |  우리학교시간표: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
 | [12](#team-12) | 404 | 산학 | 여성 1인 여행자를 위해, AI 기반 안전 분석으로 정보 공백을 해결하고 안전 경로를 추천하는 지도 서비스 |
 | [13](#team-13) | Semicolone; | 산학 | AI 질문을 ‘기억되는 인사이트’로 바꿔주는 개인 지식 관리 플랫폼 |
 | [14](#team-14) | def | 연구 | 코딩 에이전트를 위한 AST 기반 kv 재사용 추론 최적화 |
@@ -262,7 +262,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | SpeedSchedule: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
+| 프로젝트명 | 우리학교시간표: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
 | 서비스명(브랜드) | 우리학교시간표 |
 | 트랙 | 산학 |
 | 팀명 | 알고리듬 |
@@ -272,12 +272,12 @@
 | 고객 (누구를 위해) | 학교 현장의 행정 관리자와 교사 |
 | Pain Point (해결할 문제) | 기존 시스템은 AI 최적화가 없는 단순 알고리즘이라 교사 개개인의 선호도나 숙련도 반영이 불가능함. 이로 인해 관리자가 엑셀로 2차 수동 수정을 거치는 등 행정력이 낭비됨. <br> 또한 가나다순/ 고정 순번제 배정은 특정 인원에게 업무가 쏠리는 불균형을 초래하여 조직 내 공정성 시비와 만족도 저하를 일으킴. |
 | 사용 기술 | AI : 딥러닝 기반 스케줄 최적화 알고리즘 (PyTorch / TensorFlow) <br> FE : React, Vite, Axios, Vercel, ESLint <br> BE : SpringBoot 3, MySQL, Hibernate(JPA), Docker, Gradle <br> DevOps : Docker, GitHub Action <br> Infra : AWS EC2 (Amazon Linux), AWS RDS
-| 개발환경 | 1. Web -> PC 권장<br>2. javaScript<br>3. spring<br>4. MySQL 인데 PostgreSQL로 이전 고려중<br>5. Redis 캐싱<br>6. OpenAI
-| 사용하는 소프트웨어 URL | 1. Web -> PC 권장<br>2. javaScript<br>3. spring<br>4. MySQL 인데 PostgreSQL로 이전 고려중<br>5. Redis 캐싱<br>6. OpenAI
+| 개발환경 | 1. Web -> PC 권장<br>2. javaScript<br>3. spring<br>4. MySQL <br>5. Redis 캐싱<br>6. OpenAI
+| 사용하는 소프트웨어 URL | 1. Web -> PC 권장<br>2. javaScript<br>3. spring<br> 4. MySQL <br>5. Redis 캐싱<br>6. OpenAI
 | 기대 효과 | 스케줄링 업무 자동화를 통한 행정 비용 절감 및 운영 효율성 극대화. <br> 데이터 기반의 객관적 배정 시스템을 통한 운영의 투명성 확보. <br> 교사 업무 만족도 향상 및 조직 내 인력 운영 효율성 극대화.  |
-| GitHub Repo | [https://github.com/speedSchedule/AlgoRhythm](https://github.com/speedSchedule/AlgoRhythm) |
+| GitHub Repo | [https://github.com/OurSchoolSchedule/AlgoRhythm](https://github.com/OurSchoolSchedule/AlgoRhythm) |
 | Team Ground Rule | [Team_Ground_Rule.md](https://github.com/speedSchedule/AlgoRhythm/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2025/04/09 |
+| 최종수정일 | 2025/06/03 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
