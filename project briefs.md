@@ -328,7 +328,7 @@
 | 기대 효과 | 본 서비스를 통해 사용자는 AI와의 대화에서 얻은 정보를 모바일 환경에서 언제든 체계적으로 관리할 수 있으며 저장된 인사이트는 카테고리와 키워드 기반으로 구조화되어 학습이나 프로젝트 과정에서 다시 활용될 가능성이 높아진다. 월간 회고 기능을 통해 한 달간의 질문 패턴을 돌아볼 수 있으며, AI 사용이 단순한 일회성 문답에서 끝나는 것이 아니라 개인의 지속적인 지식 축적과 성장을 돕는다. 결과적으로 현재 구현된 핵심 기능을 통해 지식 휘발 문제를 즉각적으로 해결할 수 있으며, 추후 브라우저 익스텐션과 성향 분석 기능이 추가됨에 따라 정보 수집의 편의성 향상 및 깊이 있는 자기 이해 효과까지 점진적으로 확대될 것으로 기대된다. |
 | GitHub Repo | [https://github.com/Semicolone/start](https://github.com/Semicolone/start) |
 | Team Ground Rule | [https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md](https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.05.31. |
+| 최종수정일 | 2026.06.03. |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
