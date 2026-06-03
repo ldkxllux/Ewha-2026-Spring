@@ -237,21 +237,21 @@
 | 항목 | 내용 |
 |------|------|
 | 프로젝트명 | 프롬프트 자동 최적화 기반 LLM API 비용 실시간 비교 웹 서비스 |
-| 서비스명(브랜드) | Minifi |
+| 서비스명(브랜드) | |
 | 트랙 | 산학 |
 | 팀명 | 212223 |
 | 팀구성 | 고윤진(2176018), 김나현(2276040), 이유진(2376218) |
 | 팀지도교수 | 심재형 교수님 |
-| 무엇을 만들고자 하는가 |  비개발자가 비효율적인 프롬프트를 입력하면 Claude API와 자체 설계 메타 프롬프트 기반으로 프롬프트를 자동 최적화하여, 전후 토큰 차이를 시각화한 뒤 7개 주요 LLM 모델의 예상 비용을 비교하고, 개선점을 알려주는 웹 서비스 |
+| 무엇을 만들고자 하는가 |  비개발자가 비효율적인 프롬프트를 입력하면, filler word·모호 표현·중복 코드를 실시간으로 감지하고, 오픈소스(LLMLingua, LangChain) 기반으로 프롬프트를 자동 최적화하여 전후 토큰 차이를 시각화하고, 7개 주요 LLM 모델의 예상 비용을 실시간 비교하는 웹 서비스 |
 | 고객 (누구를 위해) | AI를 활용하여 코딩을 하고자 하는 비개발자 (바이브코딩 사용자, AI 기반 프로토타이핑을 하는 학생·기획자·스타트업 등 토큰 개념 없이 LLM을 사용하는 사용자) |
 | Pain Point (해결할 문제) | ① 토큰 개념에 대한 이해 부족으로 인한 무의식적 비용 낭비 (바이브코딩 세션당 생성 코드의 30~40%가 폐기, 구조화 대비 3~4배 토큰 과소비) ② 개발 구조와 로직에 대한 이해 부족으로 인한 모호한 요구, 코드 통째 전송, 반복적 재프롬프팅 ③ 토큰과 모델별 가격 차이에 대한 인지 저조 |
-| 사용 기술 | tiktoken, Claude API (프롬프트 최적화 및 6개 카테고리 진단), 자체 설계 메타 프롬프트 |
-| 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS 3. BE: FastAPI (Python) 4. AI/NLP 오픈소스: tiktoken, Claude API 6. 자체 개발 모듈: 6개 카테고리 메타 프롬프트 시스템, 카테고리별 가이드 사전, tiktoken 기반 Before/After 토큰 절감 시각화, 7개 모델 단가 테이블 기반 비용 계산 엔진 7. 배포: Vercel (프론트) + Railway (백엔드) |
-| 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi React: https://github.com/facebook/react TailwindCSS: https://github.com/tailwindlabs/tailwindcss|
-| 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 단기적/장기적인 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
+| 사용 기술 | 오픈소스: tiktoken (토큰 정밀 측정), LangChain (프롬프트 템플릿 관리 및 체이닝), LLMLingua 또는 DSPy (프롬프트 압축/최적화, 성능 비교 후 택 1) |
+| 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS, TanStack Query 3. BE: FastAPI (Python) 4. DB: Firebase Firestore 5. AI/NLP 오픈소스: tiktoken, LangChain, LLMLingua 또는 DSPy 6. 외부 API: OpenAI / Anthropic / Google AI SDK 7. 자체 개발 모듈: filler word 감지, 모호 표현 탐지, 토큰 과다 경고, 모델 추천 엔진 8. 배포: Vercel (프론트) + Railway 또는 Render (백엔드) 9. 특수 라이브러리: LiteLLM (백엔드 멀티모델 통합) |
+| 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken LangChain: https://github.com/langchain-ai/langchain LLMLingua: https://github.com/microsoft/LLMLingua DSPy: https://github.com/stanfordnlp/dspy LiteLLM: https://github.com/BerriAI/litellm Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi Firebase: https://firebase.google.com TanStack Query: https://github.com/TanStack/query |
+| 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 평균 40% 이상의 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
 | GitHub Repo | [https://github.com/0727n1122-beep/graduationproject](https://github.com/0727n1122-beep/graduationproject) |
 | Team Ground Rule | [Team Ground Rule](https://github.com/0727n1122-beep/graduationproject/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 06.03 |
+| 최종수정일 | 04.15 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
@@ -328,7 +328,7 @@
 | 기대 효과 | 본 서비스를 통해 사용자는 AI와의 대화에서 얻은 정보를 모바일 환경에서 언제든 체계적으로 관리할 수 있으며 저장된 인사이트는 카테고리와 키워드 기반으로 구조화되어 학습이나 프로젝트 과정에서 다시 활용될 가능성이 높아진다. 월간 회고 기능을 통해 한 달간의 질문 패턴을 돌아볼 수 있으며, AI 사용이 단순한 일회성 문답에서 끝나는 것이 아니라 개인의 지속적인 지식 축적과 성장을 돕는다. 결과적으로 현재 구현된 핵심 기능을 통해 지식 휘발 문제를 즉각적으로 해결할 수 있으며, 추후 브라우저 익스텐션과 성향 분석 기능이 추가됨에 따라 정보 수집의 편의성 향상 및 깊이 있는 자기 이해 효과까지 점진적으로 확대될 것으로 기대된다. |
 | GitHub Repo | [https://github.com/Semicolone/start](https://github.com/Semicolone/start) |
 | Team Ground Rule | [https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md](https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.05.31. |
+| 최종수정일 | 2026.06.03. |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
