@@ -9,7 +9,7 @@
 | [6](#team-6) | Greenfield | 산학 | 	AI 역사 인물 인터랙션과 다국어 스토리 콘텐츠 기반 역사 관광 활성화 웹 플랫폼 |
 | [7](#team-7) | reverdir | 산학 | 익명 매칭, 질문, 미션, 쪽지 상호작용을 통해 사람들 사이의 자연스러운 관계 형성과 친밀감 형성을 돕는 마니또 기반 소셜 게임 플랫폼 |
 | [8](#team-8) | 하면된다 | 산학 | AI 기반 가격 검증과 정시 경매 시스템으로 정보 비대칭과 탐색 피로를 해결하는 빈티지 거래 플랫폼 |
-| [9](#team-9) | Cloud9 | 산학 | 반복적인 손실을 겪는 개인 주식 투자자를 위한 AI 기반 매매 행동 분석 및 맞춤형 투자 습관 개선 플랫폼 |
+| [9](#team-9) | Cloud9 | 산학 | 반복적인 손실을 겪는 개인 주식 투자자를 위한 AI 기반 매매 행동 분석 및 맞춤형 투자 습관 점검 플랫폼 |
 | [10](#team-10) | 212223 | 산학 | 프롬프트 자동 최적화 기반 LLM API 비용 실시간 비교 웹 서비스 |
 | [11](#team-11) | 알고리듬 | 산학 |  우리학교시간표: 인력 운영 최적화를 위한 AI 스케줄링 및 시간표 관리 웹 플랫폼 |
 | [12](#team-12) | 404 | 산학 | 여성 1인 여행자를 위해, AI 기반 안전 분석으로 정보 공백을 해결하고 안전 경로를 추천하는 지도 서비스 |
@@ -210,7 +210,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 반복적인 손실을 겪는 개인 주식 투자자를 위한 AI 기반 매매 행동 분석 및 맞춤형 투자 습관 개선 플랫폼 |
+| 프로젝트명 | 반복적인 손실을 겪는 개인 주식 투자자를 위한 AI 기반 매매 행동 분석 및 맞춤형 투자 습관 점검 플랫폼 |
 | 서비스명(브랜드) | Canary |
 | 트랙 | 산학 |
 | 팀명 | Cloud9 |
@@ -222,10 +222,10 @@
 | 사용 기술 | Front(React, Recharts), Back(Python, FastAPI, SQLAlchemy), AI(PyTorch, Integrated Gradients, Scikit-learn, Pandas, NumPy)  |
 | 개발환경 | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, Integrated Gradients
 | 사용하는 소프트웨어 URL | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, Integrated Gradients
-| 기대 효과 | 투자자 본인도 인지하지 못했던 비이성적 매매 행동을 데이터로 직면하게 하여 손실 원인을 스스로 이해하고 투자 습관을 개선할 수 있도록 지원. 장기적으로 개인 투자자의 실질적인 손실 방어 및 건전한 투자 습관 형성에 기여 |
+| 기대 효과 | 투자자 본인도 인지하지 못했던 비이성적 매매 행동을 데이터로 직면하게 하여 손실 원인을 스스로 이해하고 투자 습관을 점검할 수 있도록 지원. 장기적으로 개인 투자자의 실질적인 손실 방어 및 건전한 투자 습관 형성에 기여 |
 | GitHub Repo | https://github.com/Cloud9-capstone-2026/cloud9 |
 | Team Ground Rule | [Team Ground Rule](https://github.com/Cloud9-capstone-2026/cloud9/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.05.19 |
+| 최종수정일 | 2026.06.22 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
