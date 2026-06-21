@@ -388,21 +388,21 @@
 | 항목 | 내용 |
 |------|------|
 | 프로젝트명 | 대화 진행에 따라 성격이 변하는 AI 캐릭터와의 정서적 유대감 기반 영어 회화 학습 지속 서비스 |
-| 서비스명(브랜드) | CharaShift |
+| 서비스명(브랜드) | Pally |
 | 트랙 | 산학 |
 | 팀명 | 퓨터 |
-| 팀구성 | 김민주, 백은혜, 이찬희, 최윤서 |
-| 팀지도교수 | 심재형 |
-| 무엇을 만들고자 하는가 | 사용자의 발화 스타일을 5축(격식도·에너지·친밀도·유머·탐구심)으로 분석하고, 그 결과를 바탕으로 AI 캐릭터의 성격이 대화마다 실시간으로 변화하는 영어 회화 학습 웹 서비스. 단순 맞춤형 응답이 아니라, 대화가 쌓일수록 캐릭터와의 정서적 유대감이 형성되어 학습을 자연스럽게 지속하게 만드는 것이 핵심 목표 |
-| 고객 (누구를 위해) | 영어 회화를 꾸준히 지속하지 못하는 20~30대 중급(B1 이상) 학습자. 기존 앱의 획일적 응답에 흥미를 잃은 사용자 |
-| Pain Point (해결할 문제) | 기존 영어 학습 앱은 응답이 고정되어 있어 사용자가 금방 흥미를 잃고 이탈함. AI가 사용자의 말투와 감정을 반영하지 못해 "나에게 맞춘 대화"가 아닌 "정해진 챗봇 응답"처럼 느껴지는 문제 |
-| 사용 기술 | GPT-4o, Supabase (Auth · RLS · pgvector), Reddit PRAW, Canvas2D + Superformula, Next.js 14, FastAPI, GitHub Actions |
-| 개발환경 | 1. PC (Windows, Mac) 및 Mobile 웹 브라우저<br>2. FE - Next.js 14, Tailwind CSS, Zustand, Canvas2D<br>3. BE - FastAPI (Python)<br>4. DB - Supabase (PostgreSQL · Auth · RLS · pgvector)<br>5. LLM - OpenAI GPT-4o / Embedding - text-embedding-3-small<br>6. 배포 - Vercel (FE), Railway (BE) |
-| 사용하는 소프트웨어 URL | 1. Next.js 14: https://nextjs.org<br>2. FastAPI: https://fastapi.tiangolo.com<br>3. Supabase: https://supabase.com<br>4. OpenAI GPT-4o: https://openai.com<br>5. Vercel: https://vercel.com<br>6. Railway: https://railway.app |
-| 기대 효과 | AI 캐릭터와의 정서적 유대감 형성으로 학습 지속률 향상 / 발화 스타일 분석 기반 개인화 대화로 몰입도 증가 / 최신 슬랭 RAG 파이프라인으로 실용 영어 학습 |
+| 팀구성 | 이찬희, 최윤서, 백은혜, 김민주 |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | 사용자의 영어 음성 발화를 Formality, Energy, Intimacy, Humor, Curiosity의 5개 축으로 분석하고, 그 결과를 CHARACTER MATRIX와 EMA 보정을 거쳐 AI 캐릭터 Pally의 말투, 반응 방식, 외형 변화로 되돌려주는 모바일 웹 기반 영어 회화 학습 서비스. 사용자가 말할수록 Pally가 사용자의 대화 스타일에 맞춰 변화하며, 음성 응답과 한국어 인라인 힌트를 함께 제공하는 것이 핵심 목표 |
+| 고객 (누구를 위해) | 기존 영어 회화 앱에서 개인화 부족을 느끼고, 더 자연스럽고 지속 가능한 대화 경험을 원하는 20~30대 중급 영어 회화 학습자. 이전 대화와 관심사를 기억하는 AI, 자연스러운 표현 교정, 자신의 말투와 성향에 맞춰 반응하는 AI 파트너를 원하는 사용자 |
+| Pain Point (해결할 문제) | 기존 영어 회화 서비스는 매 세션마다 관계가 초기화되어 사용자가 AI와 관계를 쌓는 느낌을 받기 어렵고, 표현 교정과 학습 피드백이 대화 흐름과 분리되어 있으며, 모든 사용자에게 비슷한 응답 톤을 제공한다. 또한 캐릭터나 피드백이 사용자의 변화에 반응하지 않아 장기 사용 동기가 약해지는 문제가 있다. |
+| 사용 기술 | Next.js 14, React 18, TypeScript, Tailwind CSS, FastAPI (Python 3.11), Google Cloud Speech-to-Text, Google Cloud Text-to-Speech, Gemini 2.5 Flash, Supabase PostgreSQL/RLS, Canvas2D + Superformula, 자체 5축 발화 분석기, CHARACTER MATRIX, EMA 보정 |
+| 개발환경 | 1. Client - 모바일 웹 브라우저 중심, PC 브라우저 지원<br>2. FE - Next.js 14 App Router, React 18, TypeScript, Tailwind CSS, Canvas2D 기반 Pally 렌더러, TTS 재생 UI<br>3. BE - FastAPI (Python 3.11), STT/TTS/Gemini 연동, 세션 관리, 응답 파이프라인 처리<br>4. AI Engine - 5축 발화 분석기, CHARACTER MATRIX, EMA 보정, 캐릭터 파라미터 변환<br>5. DB - Supabase PostgreSQL, sessions/messages 테이블, session_id 기반 RLS<br>6. 배포 - Vercel (Frontend), Railway (Backend) |
+| 사용하는 소프트웨어 URL | 1. Next.js: https://nextjs.org<br>2. FastAPI: https://fastapi.tiangolo.com<br>3. Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text<br>4. Google Cloud Text-to-Speech: https://cloud.google.com/text-to-speech<br>5. Gemini API: https://ai.google.dev/gemini-api<br>6. Supabase: https://supabase.com<br>7. Vercel: https://vercel.com<br>8. Railway: https://railway.app |
+| 기대 효과 | 사용자의 영어 발화를 5축 성향 점수로 변환하고 이를 Pally의 말투와 외형 변화에 연결해, 학습자가 "내 말이 서비스에 반영되고 있다"는 개인화된 대화 경험을 얻도록 한다. 음성 입력부터 음성 출력까지 이어지는 실제 대화 흐름, 자연스러운 재진술 기반 Gentle Correction, 한국어 인라인 힌트, 세션 저장을 통해 영어 회화 연습의 몰입감과 지속성을 높인다. |
 | GitHub Repo | [https://github.com/puter8/capstone](https://github.com/puter8/capstone) |
-| Team Ground Rule | https://github.com/puter8/capstone/blob/main/docs/Team_Ground_Rule.md |
-| 최종수정일 | 2026.04.27 |
+| Team Ground Rule | [https://github.com/puter8/capstone/blob/main/docs/shared/Team_Ground_Rule.md](https://github.com/puter8/capstone/blob/main/docs/shared/Team_Ground_Rule.md) |
+| 최종수정일 | 2026.06.20 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
